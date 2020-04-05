@@ -7,26 +7,26 @@
 	
 	<title> Panaderia Chapata </title>
 	<link rel = "stylesheet" href = "nombredelahoja.css"/>
-	<!-- <script src = "cosa.js"></script> -->
 	</head>
 	<body>
-		<header>
-			<h1> Panaderia Chapata </h1>
-		</header>
-		<nav>
+		<nav id = "barranavegacion">
+			<a title = "Pagina Principal" href = "Pagina Principal.html"> <img class = "imagenhome" src = "imagenes/home.svg"/></a>
 			<ul>
-				<li> Home </li>
-				<li> Productos de Venta Directa </li>
-				<li> Productos de Venta por Encargo </li>
-				<li> Productos Por Encargo </li>
-			</ul>
+				<a title = "Venta Directa" style = "text-decoration: none" href = "Venta Directa.html"> <p class = "cajasbarranavegacion"> Venta Directa </p></a>
+				<a title = "Encargos" style = "text-decoration: none" href = "Venta Por Encargo.html"> <p class = "cajasbarranavegacion"> Encargos </p></a>
+				<a title = "Reparto Diario" style = "text-decoration: none" href = "Reparto Diario.html"> <p class = "cajasbarranavegacion"> Reparto Diario </p></a>
+			</u1>
+			<u1>
+				<a title = "Usuario" href = "Pagina Principal.html"> <img class = "imagenusuario" src = "imagenes/person.svg"/></a>
+				<a title = "Carrito" href = "Pagina Principal.html"> <img class = "imagenusuario" src = "imagenes/cart.svg"/></a>
+			</u1>
 		</nav>
-		<aside> 
+		<aside id = "carritolateral"> 
 			<blockquote> Primer Elemento </blockquote>
 			<blockquote> Segundo Elemento </blockquote>
 			<blockquote> Tercer Elemento </blockquote>
 		</aside>
-		<section> 
+		<section id = "contenidoprincipal"> 
 			<article>
 				<p> Ofertas </p>
 				<p> Imagen de oferta 1 </p>
@@ -40,7 +40,7 @@
 				</figure>
 			</article>
 		</section>
-		<footer> 
+		<footer id = "piedepagina"> 
 			Informacion de la empresa 
 		</footer>
 	</body>

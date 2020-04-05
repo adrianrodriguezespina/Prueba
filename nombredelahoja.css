@@ -1,0 +1,48 @@
+body{
+    background: url("imagenes/fondo.jpg") #CCC no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#barranavegacion{
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+#contenidoprincipal{
+    background-color: darkolivegreen;
+    margin-right: 210px;
+}
+#carritolateral{
+    background-color: chartreuse;
+    float: right;
+    height: 800px;
+}
+#piedepagina{
+    background-color: darkred;
+    clear: both;
+    margin-top: 450px;
+}
+.imagenhome{
+    position: relative;
+    left: -850px;
+    top: 30px;
+    width: 70px;
+    height: 70px;
+}
+.imagenusuario{
+    position: relative;
+    left: 400px;
+    top: -100px;
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+}
+.cajasbarranavegacion{
+    background-color: goldenrod;
+    display: inline;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 5px;
+}
