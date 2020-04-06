@@ -4,11 +4,9 @@ body{
     background-position: center center;
     background-attachment: fixed;
 }
-#barranavegacion{
+.barranavegacion{
     background-color: cornflowerblue;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    height: 120px;
 }
 #contenidoprincipal{
     background-color: darkolivegreen;
@@ -26,23 +24,42 @@ body{
 }
 .imagenhome{
     position: relative;
-    left: -850px;
-    top: 30px;
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
+    top: 20px;
+    left: 40px;
 }
 .imagenusuario{
     position: relative;
-    left: 400px;
-    top: -100px;
     width: 90px;
     height: 90px;
-    padding: 20px;
+    right: -420px;
+    top: 40px;
 }
-.cajasbarranavegacion{
-    background-color: goldenrod;
+.imagencarrito{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    right: -470px;
+    top: 40px;
+}
+.button{
+    padding: 0;
+    text-align: center;
+    position: relative;
+    top: -120px;
+}
+.button li{
     display: inline;
-    padding: 20px;
+    align-content: center;
+    background-color: goldenrod;
+    padding: 15px;
     margin: 25px;
     border-radius: 5px;
+    font-size: 20px;
+}
+.button li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
 }
